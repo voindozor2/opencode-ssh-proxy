@@ -1,0 +1,37 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local settings and credentials: keep these outside the clone.
+.env
+.env.*
+!.env.example
+*.conf
+*.conf.*
+*.local.json
+*.local.jsonc
+service.json
+proxy-password*
+*private*key*
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+*.pfx
+*.p12
+*.pub
+known_hosts*
+authorized_keys*
+.ssh/
+secrets/
+local/
+
+# Runtime state, diagnostics and backups
+*.log
+*.etl
+*.pcap
+*.pcapng
+*.bak
+captures/
