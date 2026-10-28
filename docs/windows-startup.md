@@ -144,6 +144,9 @@ Stop идемпотентен. Если запрос не обработан з�
 
 ## Откат
 
+Полное отключение вместе с обёрткой команды, ярлыком и прежними managed env
+описано в [rollback.md](rollback.md). Команды ниже откатывают только supervisor.
+
 ```powershell
 .\manage.ps1 -Action RemoveStartup
 .\manage.ps1 -Action Stop
